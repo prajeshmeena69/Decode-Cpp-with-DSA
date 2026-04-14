@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int r, c;
+    cin >> r >> c;
+
+    cout << endl;
+
+    int arr[r][c];
+    for (int i = 0; i < r; i++)
+        for (int j = 0; j < c; j++)
+            cin >> arr[i][j];
+
+    cout << endl;
+
+    int sum = 0;
+    for (int i = 0; i < r; i++)
+        for (int j = 0; j < c; j++)
+            sum += arr[i][j];
+
+    cout << sum << endl;
+}
