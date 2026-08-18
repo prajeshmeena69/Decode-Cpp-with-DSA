@@ -14,7 +14,7 @@ int main() {
 
     int c = 0;
     for (int i = 0; i < n; i++)
-        if (arr[i] == x)
+        if (arr[i] > x)
             c++;
 
     cout << c << endl;
