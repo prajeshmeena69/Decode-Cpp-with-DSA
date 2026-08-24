@@ -1,6 +1,5 @@
 #include <iostream>
 #include <climits>
-#include <cmath>
 using namespace std;
 
 // void maximum_value(int *arr, int n, int idx, int max) {
